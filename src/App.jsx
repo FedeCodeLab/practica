@@ -12,6 +12,7 @@ import Form from "./components/form/Form";
 
 function App() {
   const [dark, setDark] = useState(false);
+  const [dark2, setDark2] = useState(true);
   const toggle = () => {
     setDark(!dark);
   };
@@ -20,6 +21,8 @@ function App() {
     <main className={dark ? "min-h-screen dark" : "min-h-screen light"}>
       <p>hola</p>
       <h1>Titulo</h1>
+      <h2>Subtitulo</h2>
+      <h3>Un cambio</h3>
       <Header />
       <Header2 />
 
@@ -29,8 +32,10 @@ function App() {
         <ChitChat2 />
         <Card />
         <Card2 />
+        <Video />
         <Question />
         <Shoes />
+        <Video />
         <Video />
         <Form />
       </div>
