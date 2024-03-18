@@ -12,6 +12,7 @@ import Form from "./components/form/Form";
 
 function App() {
   const [dark, setDark] = useState(false);
+  const [dark2, setDark2] = useState(true);
   const toggle = () => {
     setDark(!dark);
   };
@@ -25,7 +26,7 @@ function App() {
       <p>hola</p>
       <h1>Titulo</h1>
       <h2>Subtitulo</h2>
-
+>>>>>>>>> Temporary merge branch 2
       <Header />
       <Header2 />
 
@@ -35,8 +36,10 @@ function App() {
         <ChitChat2 />
         <Card />
         <Card2 />
+        <Video />
         <Question />
         <Shoes />
+        <Video />
         <Video />
         <Form />
       </div>
