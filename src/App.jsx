@@ -16,6 +16,10 @@ function App() {
     setDark(!dark);
   };
 
+  //Este es un comentario uwu
+
+  const [mensaje, setMensaje] = useState("")
+
   return (
     <main className={dark ? "min-h-screen dark" : "min-h-screen light"}>
       <p>hola</p>
