@@ -22,7 +22,7 @@ function App() {
       <p>hola</p>
       <h1>Titulo</h1>
       <h2>Subtitulo</h2>
-      <h3>Un cambio</h3>
+>>>>>>>>> Temporary merge branch 2
       <Header />
       <Header2 />
 
