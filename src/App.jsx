@@ -19,6 +19,8 @@ function App() {
   return (
     <main className={dark ? "min-h-screen dark" : "min-h-screen light"}>
       <p>hola</p>
+      <h1>Titulo</h1>
+
       <Header />
       <Header2 />
 
